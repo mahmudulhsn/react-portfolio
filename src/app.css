@@ -120,13 +120,20 @@ html {
     }
   }
   
-  /*===== Media Query(Mobile)===*/
-  @media screen and (max-width: 600px){
-    .container {
-      width: var(--container-width-sm);
-    }
-  
-    section > h2 {
-      margin-bottom: 2rem;
+  /*===== Media Query(MEDIUM DEVICES)===*/
+  @media screen and (max-width: 1024px){
+    header {
+      height: 68vh;
     }
   }
+  
+  /*===== Media Query(SMALL DEVICES)===*/
+  @media screen and (max-width: 600px){
+    header {
+      height: 100vh;
+    }
+    .header__socials, .scroll__down{
+      display: none;
+    }
+  }
+
