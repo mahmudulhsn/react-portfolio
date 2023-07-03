@@ -112,12 +112,21 @@ html {
   
   /*===== Media Query(Tablet)===*/
   @media screen and (max-width: 1024px){
+    section {
+      height: auto;
+      margin-top: 6rem;
+     }
+
     .container {
       width: var(--container-width-md);
     }
-  
-    section {
-      margin-top: 6rem;
-    }
   }
+
+  
+/*===== Media Query(SMALL DEVICES)===*/
+@media screen and (max-width: 600px) {
+  section {
+   height: auto;
+  }
+}
   
