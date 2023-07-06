@@ -1,4 +1,4 @@
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/Mahmudul_Hasan_Hasib.pdf";
 
 const CTA = () => {
   return (
@@ -6,7 +6,7 @@ const CTA = () => {
       <a href={CV} download className="btn">
         Download CV
       </a>
-      <a href="#content" download className="btn btn-primary">
+      <a href="#content" className="btn btn-primary">
         Let's Talk
       </a>
     </div>
