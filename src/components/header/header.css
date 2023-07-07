@@ -10,6 +10,15 @@ header {
   position: relative;
 }
 
+.logo {
+  color: var(--color-white);
+  transition: var(--transition);
+}
+
+.logo:hover {
+  color: var(--color-primary);
+}
+
 /* ============== CTA ============== */
 .cta {
   margin-top: 2.5rem;
