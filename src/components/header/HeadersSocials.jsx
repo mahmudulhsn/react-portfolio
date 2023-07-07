@@ -1,19 +1,25 @@
 import { BsLinkedin, BsGithub, BsYoutube, BsTwitter } from "react-icons/bs";
+import {
+  FaTwitterSquare,
+  FaYoutubeSquare,
+  FaGithubSquare,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const HeadersSocials = () => {
   return (
     <div className="header__socials">
       <a href="https://linkedin.com" target="__blank">
-        <BsLinkedin />
+        <FaLinkedin className="social_icons" />
       </a>
       <a href="https://github.com" target="__blank">
-        <BsGithub />
+        <FaGithubSquare className="social_icons" />
       </a>
       <a href="https://youtube.com" target="__blank">
-        <BsYoutube />
+        <FaYoutubeSquare className="social_icons" />
       </a>
       <a href="https://twitter.com" target="__blank">
-        <BsTwitter />
+        <FaTwitterSquare className="social_icons" />
       </a>
     </div>
   );

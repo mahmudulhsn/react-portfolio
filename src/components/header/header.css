@@ -29,6 +29,10 @@ header {
   bottom: 3rem;
 }
 
+.social_icons {
+  font-size: 1.2rem;
+}
+
 .header__socials::after {
   content: "";
   width: 1px;
@@ -92,6 +96,10 @@ header {
     width: none;
     height: none;
     background: none;
+  }
+
+  .social_icons {
+    font-size: 1.5rem;
   }
 
   .cta {
