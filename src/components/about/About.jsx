@@ -34,15 +34,17 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ years working</small>
+              <small>100+ web application</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            adipisci vitae rerum consequatur autem iure quos temporibus fuga.
-            Quia, ad eligendi quam aliquid hic voluptatem sapiente veniam
-            necessitatibus nihil doloremque.
+            I am Mahmudul Hasan Hasib, a full-stack web developer with
+            real-world experience in Laravel, Express JS, React JS, Vue JS,
+            Laravel Livewire, Alpine JS, Tailwind CSS, Bootstrap. As well as
+            skilled in relational and non-relational databases, software design
+            patterns. Also highly skilled in REST API and GraphQL. I love to
+            share knowledge with others.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
