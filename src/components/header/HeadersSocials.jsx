@@ -9,16 +9,16 @@ import {
 const HeadersSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://linkedin.com" target="__blank">
+      <a href="https://www.linkedin.com/in/mahmudulhsn" target="__blank">
         <FaLinkedin className="social_icons" />
       </a>
-      <a href="https://github.com" target="__blank">
+      <a href="https://github.com/mahmudulhsn" target="__blank">
         <FaGithubSquare className="social_icons" />
       </a>
-      <a href="https://youtube.com" target="__blank">
+      <a href="https://youtube.com/mhhasib" target="__blank">
         <FaYoutubeSquare className="social_icons" />
       </a>
-      <a href="https://twitter.com" target="__blank">
+      <a href="https://twitter.com/mahmudulhsn" target="__blank">
         <FaTwitterSquare className="social_icons" />
       </a>
     </div>
