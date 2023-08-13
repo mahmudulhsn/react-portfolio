@@ -9,7 +9,7 @@ import {
 const HeadersSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://www.linkedin.com/in/mahmudulhsn" target="__blank">
+      <a href="https://www.linkedin.com/in/mhhasib" target="__blank">
         <FaLinkedin className="social_icons" />
       </a>
       <a href="https://github.com/mahmudulhsn" target="__blank">
