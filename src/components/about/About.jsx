@@ -40,11 +40,14 @@ const About = () => {
 
           <p>
             I am Mahmudul Hasan Hasib, a full-stack web developer with
-            real-world experience in Laravel, Express JS, React JS, Vue JS,
-            Laravel Livewire, Alpine JS, Tailwind CSS, Bootstrap. As well as
-            skilled in relational and non-relational databases, software design
-            patterns. Also highly skilled in REST API and GraphQL. I love to
-            share knowledge with others.
+            real-world experience in <strong>Laravel</strong>,
+            <strong> Express JS</strong>, <strong> React JS</strong>,
+            <strong> Vue JS</strong>, <strong> Laravel Livewire</strong>,
+            <strong> Alpine JS</strong>,<strong> Tailwind CSS</strong>,
+            <strong> Bootstrap</strong>. As well as skilled in relational and
+            non-relational databases, software design patterns. Also highly
+            skilled in REST API and GraphQL. I love to share knowledge with
+            others.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
