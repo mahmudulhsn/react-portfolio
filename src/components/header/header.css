@@ -79,6 +79,19 @@ header {
   }
 }
 
+/*===== Media Query(MEDIUM DEVICES)===*/
+@media screen and (max-height: 860px) {
+  header {
+    height: 100vh;
+    padding-top: 2rem;
+  }
+  /* ============== ME ============== */
+.me {
+  height: 27rem;
+}
+
+}
+
 /*===== Media Query(SMALL DEVICES)===*/
 @media screen and (max-width: 600px) {
   header {
