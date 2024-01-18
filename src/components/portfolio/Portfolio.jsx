@@ -52,14 +52,14 @@ const projects = [
     description:
       "This is an online eCommerce site. I worked as a lead fullstack engineer in this project. Technologies: Laravel, Livewire.",
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Awesome Books - displays, add books",
-    github: "https://github.com",
-    demo: "https://mhhasib.com",
-    description: "I worked as a lead backend in this project.",
-  },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: "Awesome Books - displays, add books",
+  //   github: "https://github.com",
+  //   demo: "https://mhhasib.com",
+  //   description: "I worked as a lead backend in this project.",
+  // },
 ];
 const Portfolio = () => {
   return (
