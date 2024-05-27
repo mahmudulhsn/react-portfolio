@@ -3,6 +3,7 @@ import "./nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBookAlt, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
+import { FaBlog } from "react-icons/fa6";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -46,6 +47,9 @@ const Nav = () => {
         className={activeNav === "#contact" ? "active" : ""}
       >
         <BiMessageSquareDetail />
+      </a>
+      <a target="__blank" href="https://dev.to/mahmudulhsn" onClick={() => {}}>
+        <FaBlog />
       </a>
     </nav>
   );
