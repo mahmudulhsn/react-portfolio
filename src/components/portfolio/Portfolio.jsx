@@ -4,7 +4,7 @@ import IMG2 from "../../assets/foodqo.jpg";
 import IMG3 from "../../assets/modi-fit.jpg";
 import IMG4 from "../../assets/kalmegha.jpg";
 import IMG5 from "../../assets/quickmartbd.jpg";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG6 from "../../assets/sscl-bd.png";
 
 const projects = [
   {
@@ -52,14 +52,14 @@ const projects = [
     description:
       "This is an online eCommerce site. I worked as a lead fullstack engineer in this project. Technologies: Laravel, Livewire.",
   },
-  // {
-  //   id: 6,
-  //   image: IMG6,
-  //   title: "Awesome Books - displays, add books",
-  //   github: "https://github.com",
-  //   demo: "https://mhhasib.com",
-  //   description: "I worked as a lead backend in this project.",
-  // },
+  {
+    id: 6,
+    image: IMG6,
+    title: "SSCL BD",
+    github: "#",
+    demo: "https://ssclbd.com",
+    description: "This is a company portfolio.",
+  },
 ];
 const Portfolio = () => {
   return (
