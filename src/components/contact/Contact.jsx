@@ -4,6 +4,8 @@ import emailjs from "@emailjs/browser";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
@@ -21,9 +23,27 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("Message sent successfully!", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
         },
         (error) => {
           console.log(error.text);
+          toast.error("Failed to send message. Please try again later.", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
         }
       );
 
@@ -57,12 +77,13 @@ const Contact = () => {
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>+8801917200115</h5>
-            <a href="https://api.whatsapp.com/send?phone+8801917200115">
+            <a href="https://api.whatsapp.com/send?phone=+8801917200115">
               Send a message
             </a>
           </article>
         </div>
-        {/* end of contact options */}
+
+        {/* Contact form */}
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
@@ -87,6 +108,9 @@ const Contact = () => {
             Send Message
           </button>
         </form>
+
+        {/* Toast Notification Container */}
+        <ToastContainer />
       </div>
     </section>
   );
