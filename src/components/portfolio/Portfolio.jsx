@@ -5,6 +5,7 @@ import IMG3 from "../../assets/modi-fit.jpg";
 import IMG4 from "../../assets/kalmegha.jpg";
 import IMG5 from "../../assets/quickmartbd.jpg";
 import IMG6 from "../../assets/sscl-bd.png";
+import IMG7 from "../../assets/repocket.png";
 
 const projects = [
   {
@@ -14,51 +15,61 @@ const projects = [
     github: "#",
     demo: "https://www.somoynews.tv/",
     description:
-      "This is an online portal of Somoy TV. I worked as a lead backend engineer in this project. Technologies: Exrpress JS, Graphql, Nuxt js.",
+      "A high-traffic digital journalism platform powering Somoy News with millions of daily visitors and live TV broadcasting capabilities. As Senior Backend Web Developer, I designed database schemas for both REST and GraphQL APIs, optimized system performance, and built the core infrastructure supporting real-time news delivery. Technologies: Express.js, GraphQL, Nuxt.js, Redis, MySQL.",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Foodqo",
+    title: "FoodQo",
     github: "#",
     demo: "https://foodqo.com",
     description:
-      "This is a POS management with full inventory management for a restaurant. I worked as a lead backend engineer in this project. Technologies: Laravel, Rest API, Nuxt js.",
+      "A multi-tenant SaaS restaurant management platform with database-per-tenant architecture serving multiple clients. As Lead Backend Engineer, I architected the core system, implemented Netflix-style subscription models with integrated customer support, and developed complex analytics queries. Built comprehensive POS and inventory management features with real-time order processing. Technologies: Laravel, REST API, Nuxt.js, Redis, MySQL.",
   },
   {
     id: 3,
-    image: IMG3,
-    title: "Modifit",
+    image: IMG7,
+    title: "Repocket",
     github: "#",
-    demo: "https://www.modi-fit.jp",
+    demo: "https://repocket.com",
     description:
-      "This is a yoga management with booking management. I worked as a lead fullstack engineer in this project. Technologies: Laravel, Livewire, Tailwind CSS, Alpine JS.",
+      "A comprehensive affiliate marketing platform connecting users with 200+ advertising partners. As Senior Backend Engineer, I architected the core offer management system, built robust postback webhook infrastructure, and developed sophisticated transaction processing workflows with fraud prevention mechanisms. Implemented offer progression tracking, EPC calculations, and real-time attribution features enabling reliable reporting across the platform. Technologies: Laravel, NestJS, PostgreSQL, MongoDB, Firebase, Docker, Kubernetes, REST API.",
   },
   {
     id: 4,
-    image: IMG4,
-    title: "Kaalmegha",
+    image: IMG3,
+    title: "Modi-Fit (Yoga Project)",
     github: "#",
-    demo: "https://kaalmegha.com",
+    demo: "https://www.modi-fit.jp",
     description:
-      "This is a resort management with booking management. I worked as a lead fullstack engineer in this project. Technologies: Laravel, Livewire, Tailwind CSS, Alpine JS.",
+      "A comprehensive yoga studio management system with class scheduling, membership management, and booking capabilities. As Lead Full-Stack Engineer, I architected scalable database structures, optimized database performance by 60%, and built modern, interactive interfaces with real-time updates. Technologies: Laravel, Livewire, Tailwind CSS, Alpine.js, PostgreSQL.",
   },
   {
     id: 5,
+    image: IMG4,
+    title: "Kaalmegha Resort",
+    github: "#",
+    demo: "https://kaalmegha.com",
+    description:
+      "A resort management platform with comprehensive booking management, room inventory tracking, and guest services coordination. As Lead Full-Stack Engineer, I developed the complete booking workflow, payment integration, and guest management system. Technologies: Laravel, Livewire, Tailwind CSS, Alpine.js.",
+  },
+  {
+    id: 6,
     image: IMG5,
     title: "Quick Mart BD",
     github: "#",
     demo: "https://quickmartbd.com",
     description:
-      "This is an online eCommerce site. I worked as a lead fullstack engineer in this project. Technologies: Laravel, Livewire.",
+      "A full-featured eCommerce platform with product catalog management, shopping cart, payment processing, and order fulfillment. As Lead Full-Stack Engineer, I built the complete storefront and admin panel with inventory management and customer order tracking. Technologies: Laravel, Livewire.",
   },
   {
-    id: 6,
+    id: 7,
     image: IMG6,
     title: "SSCL BD",
     github: "#",
     demo: "https://ssclbd.com",
-    description: "This is a company portfolio.",
+    description:
+      "A professional company portfolio website showcasing services, team, and client work. Technologies: HTML, CSS, JavaScript.",
   },
 ];
 const Portfolio = () => {

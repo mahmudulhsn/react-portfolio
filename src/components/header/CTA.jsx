@@ -1,4 +1,4 @@
-import CV from "../../assets/CV_of_Mahmudul_Hasan_Hasib.pdf";
+import CV from "../../assets/CV_Mahmudul_Hasan_Hasib.pdf";
 
 const CTA = () => {
   return (
